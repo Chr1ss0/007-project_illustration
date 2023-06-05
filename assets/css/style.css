@@ -7,10 +7,12 @@
 @font-face {
     font-family: Merriweather;
     src: url(../font/Merriweather-Regular.ttf);
+    font-weight: 400;
 }
 @font-face {
     font-family: Merriweather;
     src: url(../font/Merriweather-Bold.ttf);
+    font-weight: 700;
 }
 
 /* === HTML Config === */
@@ -19,6 +21,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html{
+    background-color: black;
 }
 
 body {
@@ -35,3 +41,195 @@ body {
 }
 
 /* === Globals === */
+
+h1,
+h2,
+h3,
+p,
+button {font-family: var(--main_font);}
+
+h1,
+h2 {
+    font-size: 3rem;
+}
+
+footer,
+nav, 
+p {
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+footer,
+li,
+p,
+button {
+    font-weight: 400;
+}
+
+p,
+footer {
+    line-height: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* === Header & Main === */
+
+.navbar {
+    font-family: var(--sec_font);
+    text-align: end;
+}
+
+.navbar__li {
+    display: inline-block;
+    padding: 27.37px 14.2px 102.41px 17.99px;
+    
+}
+
+.navbar__a {
+    color: var(--color_accent);
+}
+
+.introduction {
+    padding-left: 144px;
+}
+
+.introduction__container {
+    width: 1296px;
+    height: 502.9px;
+    margin-bottom: 95.55px;
+}
+
+.introduction__container__tb {
+    width: 496px;
+    display: inline-block;
+}
+
+.introduction__container__tb__headline {
+    padding-bottom: 19.73px;
+}
+
+.introduction__container__tb__p {
+    padding-bottom: 20.68px;
+}
+
+.introduction__container__tb__button {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 19px;
+    padding: 12px;
+    margin-right: 13.66px;
+}
+
+.--button_light {
+    background-color: white;
+    color: var(--color_accent);
+    box-shadow: 0 0 2px var(--color_accent);
+}
+ /* #Der Fisch braucht noch etwas liebe */
+.introduction__container__img {
+    height: 502.9px;
+    float: right;
+    object-fit: cover;
+}
+
+.--float_left {
+    float: left;
+}
+
+/* #Wahrscheinlich zeimlicher Schmu */
+.--text_center {
+    margin-left: 15%;
+}
+
+.introduction__end__text {
+    text-align: center;
+}
+
+.introduction__end__text__headline {
+    padding-bottom: 19.73px;
+}
+
+.introduction__end__text__p {
+    width: 814.61px;
+    margin: 0 auto;
+    padding-bottom: 43.4px;
+}
+
+.introduction__end__gallery {
+    text-align: center;
+}
+
+.introduction__end__gallery__img {
+    height: 305.95px;
+    width: 360px;
+    mix-blend-mode: multiply;
+    margin-bottom: 136.5px;
+
+}
+
+.--img_correction {
+    margin-right: 75.8px;
+    margin-right: 75.8px;
+}
+
+.examples {
+    text-align: center;
+}
+
+.examples__headline {
+    padding-bottom: 19.73px;
+}
+
+.examples__p {
+    width: 834.47px;
+    display: inline-block;
+    padding-bottom: 36.2px;
+}
+
+.examples__gallery {
+text-align: center;
+}
+
+.examples__gallery__img {
+    width: 576px;
+    height: 324px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 62.09px;
+}
+
+.sale__tb {
+    text-align: center;
+}
+
+.sale__tb__headline {
+    padding-bottom: 19.73px;
+}
+
+.sale__tb__p {
+    width: 546.61px;
+    margin: 0 auto;
+    padding-bottom: 71.09px;
+}
+
+.sale__tile {
+    background-color: #55ACEE1A;
+    height: 571.64px;
+    width: 360px;
+    margin: 0 auto;
+}
