@@ -1,0 +1,37 @@
+/* === Import === */
+
+@font-face {
+    font-family: Lato;
+    src: url(../font/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    src: url(../font/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    src: url(../font/Merriweather-Bold.ttf);
+}
+
+/* === HTML Config === */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --color_accent: #202020;
+    --color_accent2: #7E7E7E;
+    --main_font: Merriweather;
+    --sec_font: Lato;
+}
+
+/* === Globals === */
