@@ -79,6 +79,12 @@ footer {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+button {
+    border-style: none;
+    border-radius: 10px;
 }
 
 li {
@@ -94,8 +100,7 @@ li {
 
 .navbar__li {
     display: inline-block;
-    padding: 27.37px 14.2px 102.41px 17.99px;
-    
+    padding: 1.7106rem 0.8875rem 6.4006rem 1.1244rem;
 }
 
 .navbar__a {
@@ -103,47 +108,45 @@ li {
 }
 
 .introduction {
-    padding-left: 144px;
+    padding-left: 9rem;
 }
 
 .introduction__container {
-    width: 1296px;
-    height: 502.9px;
-    margin-bottom: 95.55px;
+    height: 31.4312rem;
+    margin-bottom: 5.9719rem;
+    width: 81rem;
 }
 
 .introduction__container__tb {
-    width: 496px;
     display: inline-block;
+    width: 31rem;
 }
 
 .introduction__container__tb__headline {
-    padding-bottom: 19.73px;
+    padding-bottom: 1.2331rem;
 }
 
 .introduction__container__tb__p {
-    padding-bottom: 20.68px;
+    padding-bottom: 1.2925rem;
 }
 
 .introduction__container__tb__button {
     background-color: black;
-    border: none;
-    border-radius: 10px;
     color: white;
-    font-size: 19px;
-    padding: 12px;
-    margin-right: 13.66px;
+    font-size: 1.1875rem;
+    margin-right: 0.8538rem;
+    padding: 0.75rem;
 }
 
 .--button_light {
     background-color: white;
+    box-shadow: 0 0 0.125rem var(--color_accent);
     color: var(--color_accent);
-    box-shadow: 0 0 2px var(--color_accent);
 }
  /* #Der Fisch braucht noch etwas liebe */
 .introduction__container__img {
-    height: 502.9px;
     float: right;
+    height: 31.4312rem;
     object-fit: cover;
 }
 
@@ -161,13 +164,13 @@ li {
 }
 
 .introduction__end__text__headline {
-    padding-bottom: 19.73px;
+    padding-bottom: 1.2331rem;
 }
 
 .introduction__end__text__p {
-    width: 814.61px;
     margin: 0 auto;
-    padding-bottom: 43.4px;
+    padding-bottom: 2.7125rem;
+    width: 50.9131rem;
 }
 
 .introduction__end__gallery {
@@ -175,16 +178,16 @@ li {
 }
 
 .introduction__end__gallery__img {
-    height: 305.95px;
-    width: 360px;
+    height: 19.1219rem;
     mix-blend-mode: multiply;
-    margin-bottom: 136.5px;
+    margin-bottom: 8.5313rem;
+    width: 22.5rem;
 
 }
 
 .--img_correction {
-    margin-right: 75.8px;
-    margin-right: 75.8px;
+    margin-right: 4.7375rem;
+    margin-right: 4.7375rem;
 }
 
 .examples {
@@ -192,13 +195,13 @@ li {
 }
 
 .examples__headline {
-    padding-bottom: 19.73px;
+    padding-bottom: 1.2331rem;
 }
 
 .examples__p {
-    width: 834.47px;
     display: inline-block;
-    padding-bottom: 36.2px;
+    padding-bottom: 2.2625rem;
+    width: 834.47px;
 }
 
 .examples__gallery {
@@ -206,11 +209,11 @@ text-align: center;
 }
 
 .examples__gallery__img {
-    width: 576px;
-    height: 324px;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 62.09px;
+    height: 20.25rem;
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+    margin-bottom: 3.8806rem;
+    width: 36rem;
 }
 
 .sale__tb {
@@ -218,18 +221,83 @@ text-align: center;
 }
 
 .sale__tb__headline {
-    padding-bottom: 19.73px;
+    padding-bottom: 1.2331rem;
 }
 
 .sale__tb__p {
-    width: 546.61px;
     margin: 0 auto;
-    padding-bottom: 71.09px;
+    padding-bottom: 4.4431rem;
+    width: 34.1631rem;
+}
+
+.sale {
+    padding-bottom: 60px;
 }
 
 .sale__tile {
     background-color: #55ACEE1A;
-    height: 571.64px;
-    width: 360px;
+    height: 35.7275rem;
     margin: 0 auto;
+    width: 22.5rem;
+    text-align: center;
+}
+
+.sale__tile__headline {
+    font-size: 2rem;
+    padding-top: 60px;
+}
+
+.sale__tile__price {
+    font-size: 80px;
+    padding-top: 60px;
+}
+
+.sale__tile__priceperiod {
+    font-size: 1rem;
+    color: var(--color_accent2);
+    padding-top: 50px;
+}
+
+.sale__tile__benefits {
+    font: 400 1rem var(--main_font);
+    padding-top: 10px;
+    padding-bottom: 2rem;
+}
+
+.sale__tile__subbutton {
+    background-color: #55ACEE;
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    font-size: 1rem;
+    
+}
+/* === Footer === */
+
+.footer {
+    text-align: center;
+}
+
+.footer__headline {
+    padding-bottom: 1.5rem;
+}
+
+.footer__contact {
+    font-size: 1.2rem;
+}
+
+.footer__contact__plain {
+    color: var(--color_accent2);
+}
+
+.--contact_fb {
+    color: #3B5998;
+}
+.--contact_insta {
+    color: #FCAF45;
+}
+.--contact_twitter {
+    color: #55ACEE;
+}
+.--contact_yt {
+    color: #C4302B;
 }
